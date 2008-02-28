@@ -4,7 +4,7 @@ Donate link: http://horttcore.de/2008/02/02/extended-userprofil/
 Tags: user profile, profile, author page
 Requires at least: 2.2.0
 Tested up to: 2.3.3
-Stable tag: 1.0
+Stable tag: 1.1
 
 Extend your the user profile
 
@@ -14,7 +14,7 @@ The webmaster can extended with the basic html knowledge, or even with some copy
 
 == Installation ==
 
-Upload the extended-user-profile.php into ur plugin folder and activate it.
+Upload the extended-user-profile.php into your plugin folder and activate it.
 All you have to do now is to change the extend_user_profil() as you want.
 
 To show the added meta values in the front end use the wordpress get_usermeta() function or my own call_usermeta(), it retrieves an object with all values.
@@ -32,4 +32,4 @@ print_r($meta); // Get an overview whats in the object
 echo $meta->email // echo an meta value
 
 Will it add any new tables?
-No, it uses the wordpress usermeta table and won't mess up you clean database.
+No, it uses the wordpress usermeta table and won't mess up your clean database.
