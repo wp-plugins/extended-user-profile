@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Extended User Profile
-Plugin URI: http://www.horttcore.de/
+Plugin URI: http://extended-user-profile.horttcore.de
 Description: Extend your the userprofil - * PHP4+ or Function Library Plugin from my blog.
 Author: Ralf Hortt
 Version: 1.1
@@ -15,8 +15,8 @@ Author URI: http://www.horttcore.de/
  * To get meta data simply do '<?php $meta = call_usermeta(); ?>'
 */
 
-add_action('register_form', extend_user_profil); // Remove "#" if user can fill out the form on registration.
-add_action('register_post', extended_user_profil_registration_save); // Remove "#" if user can fill out the form on registration.
+#add_action('register_form', extend_user_profil); // Remove "#" if user can fill out the form on registration.
+#add_action('register_post', extended_user_profil_registration_save); // Remove "#" if user can fill out the form on registration.
 
 add_action('show_user_profile',extend_user_profil); // Do Not Remove This Line
 add_action('edit_user_profile',extend_user_profil); // Do Not Remove This Line

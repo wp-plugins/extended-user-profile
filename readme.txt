@@ -1,6 +1,6 @@
 === Extended User Profile ===
 Contributors: Ralf Hortt
-Donate link: http://horttcore.de/2008/02/02/extended-userprofil/
+Donate link: http://extended-user-profile.horttcore.de
 Tags: user profile, profile, author page
 Requires at least: 2.2.0
 Tested up to: 2.3.3
