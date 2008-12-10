@@ -4,7 +4,7 @@ Plugin Name: Extended User Profile
 Plugin URI: http://horttcore.de/wordpress/extended-user-profile
 Description: Extend the user profile
 Author: Ralf Hortt
-Version: 1.3
+Version: 1.3.1
 Author URI: http://www.horttcore.de/
 */ 
 
@@ -121,9 +121,8 @@ global $wpdb, $user_ID;
 	elseif($_GET['user_id']) {
 		$id = $_GET['user_id'];
 	}
-	$sql = "SELECT meta_value FROM $wpdb->usermeta WHERE meta_key LIKE 'eup_profile' AND user_id = '$id'";
-	$meta = $wpdb->get_var($sql);
-	$meta = ($meta) ? unserialize($meta) : array();
+	
+	$meta = get_usermeta($id,'eup_profile',TRUE);
 	return $meta;
 }
 

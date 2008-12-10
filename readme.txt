@@ -4,7 +4,7 @@ Donate link: http://extended-user-profile.horttcore.de
 Tags: user profile, profile, author page
 Requires at least: 2.7
 Tested up to: 2.7
-Stable tag: 1.3
+Stable tag: 1.3.1
 
 Extend your the user profile
 
